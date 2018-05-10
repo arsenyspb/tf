@@ -2,7 +2,6 @@ variable "aws_region" {}
 variable "aws_profile" {}
 data "aws_availability_zones" "available" {}
 variable "vpc_cidr" {}
-
 #next one is a map so we could look up as a dictionary
 variable "cidrs" {
   type = "map"
